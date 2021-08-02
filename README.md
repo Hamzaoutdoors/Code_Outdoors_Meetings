@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS & JavaScript capstone project
 
 > One paragraph statement about the project.
 
@@ -10,9 +10,10 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
+- HTML, CSS & JAVASCRIPT
 - Frameworks
-- Technologies used
+- Technologies used :
+   > FlexBox layout
 
 ## Live Demo
 
