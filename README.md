@@ -5,6 +5,10 @@
 > This project is the capstone project of the first module (the portal) in Microverse program.
 The website is about a site of travelling and coding meetings, a place where passionate people about travelling meet, learn, and enjoy. The website contains 2 pages, main page where I introduced the idea about the meeting, the about page where I presented the meeting and some previous activities, all the pages are responsive (breakpoint 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
+## Live Demo
+
+[Live Demo Link](https://hamzaoutdoors.github.io/HTML-CSS-JavaScript-capstone-project/)
+
 - Mobile version
 
 ![mobile1](https://user-images.githubusercontent.com/80895497/128024374-0b2e20c6-2e39-4ac7-9dad-7fdcc0c292f5.PNG),![mobile5](https://user-images.githubusercontent.com/80895497/128024746-450f3b2c-afe4-4765-87b5-efd083fce021.PNG), ![mobile2](https://user-images.githubusercontent.com/80895497/128024525-d3c13714-3242-467b-9608-632f9f7844bb.PNG),![mobile3](https://user-images.githubusercontent.com/80895497/128024688-44fb112d-f439-4100-bfee-ebcf75cd9ef5.PNG)
@@ -20,10 +24,6 @@ Additional description about the project and its features.
 - Frameworks
 - Technologies used :
    > FlexBox layout
-
-## Live Demo
-
-[Live Demo Link](https://hamzaoutdoors.github.io/HTML-CSS-JavaScript-capstone-project/)
 
 ## Authors
 
