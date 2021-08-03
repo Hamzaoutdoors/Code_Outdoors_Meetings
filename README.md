@@ -23,15 +23,15 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://hamzaoutdoors.github.io/HTML-CSS-JavaScript-capstone-project/)
 
 ## Authors
 
 👤 **Hamza Ellaouzi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@hamzaoutdoors](https://github.com/Hamzaoutdoors)
+- Twitter: [@EllaouziHamza](https://twitter.com/EllaouziHamza)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
 
 ## 🤝 Contributing
 

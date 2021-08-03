@@ -175,6 +175,7 @@ section hr {
   position: relative;
   z-index: 1;
   min-width: 600px;
+  overflow-y: hidden;
 }
 
 #hero::after {
@@ -227,12 +228,7 @@ section hr {
   height: 100%;
   width: 0;
   opacity: 0.95;
-  background: linear-gradient(
-    45deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(236, 82, 66, 1) 42%,
-    rgba(211, 211, 211, 1) 100%
-  );
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(236, 82, 66, 1) 42%, rgba(211, 211, 211, 1) 100%);
   animation: text_reveal_box 1s ease-in-out;
   animation-delay: 0.3s;
 }
@@ -265,6 +261,7 @@ section hr {
 
 .date-place h3 {
   font-size: 2.2rem;
+  font-family: "cocogoose", sans-serif;
 }
 
 /* End Hero Section */
@@ -520,14 +517,7 @@ section hr {
 
 @keyframes text_reveal {
   100% {
-    background: repeating-radial-gradient(
-      circle farthest-corner at center center,
-      #ec5242 0%,
-      #ec5242 25%,
-      #382e0a 50%,
-      #ec5242 75%,
-      #ec5242 100%
-    );
+    background: repeating-radial-gradient(circle farthest-corner at center center, #ec5242 0%, #ec5242 25%, #382e0a 50%, #ec5242 75%, #ec5242 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -608,6 +598,10 @@ section hr {
   }
 
   /* hero */
+  #hero {
+    background-position: bottom center -50%;
+  }
+
   #hero h1 {
     font-size: 7rem;
   }
@@ -632,7 +626,7 @@ section hr {
     justify-content: space-between;
   }
 
-  /*About section*/
+  /* About section */
   #About .About {
     flex-direction: row;
   }
@@ -660,9 +654,9 @@ section hr {
     text-align: left;
   }
 
-  /*End About section*/
+  /* End About section */
 
-  /*Contact section*/
+  /* Contact section */
   #contact .contact {
     flex-direction: column;
     padding: 100px 0;
@@ -686,7 +680,6 @@ section hr {
     margin: 20px;
     flex-direction: row;
     flex-basis: 33%;
-    margin: 1.5%;
   }
 
   #contact .contact-item .icon {
@@ -698,11 +691,11 @@ section hr {
     object-fit: contain;
   }
 
-  contact .contact-item .contact-info {
+  .contact .contact-item .contact-info {
     width: 100%;
     text-align: left;
     padding-left: 20px;
   }
 
-  /*End Contact section*/
+  /* End Contact section */
 }

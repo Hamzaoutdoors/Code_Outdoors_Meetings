@@ -38,7 +38,6 @@
   height: 80vh;
   text-align: center;
   font-weight: 900;
-
 }
 
 .last-activities-container {
@@ -111,6 +110,5 @@
 
 .link-item {
   margin: 5px;
-  height: fit-content;
   width: 80%;
 }
