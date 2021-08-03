@@ -247,7 +247,7 @@ section hr {
 
 #hero .content-home {
   width: 430px;
-  margin: 130px 0 40px 0;
+  margin: 100px 0 40px 0;
   padding: 15px;
   background-color: var(--secondary-color);
   opacity: 0.9;
@@ -343,7 +343,7 @@ section hr {
 .organizers-container article {
   text-align: start;
   margin: 0 20px 30px 20px;
-  background: url("./Images/pixels.jpeg");
+  background: url("../Images/pixels.jpeg");
   background-position: -5% 0;
   background-repeat: no-repeat;
   background-size: 7rem;
@@ -440,7 +440,7 @@ section hr {
 .partner-section {
   background-color: #272a31;
   color: var(--white);
-  height: 50vh;
+  height: 55vh;
 }
 
 .partners {
@@ -599,12 +599,21 @@ section hr {
 
   /* hero */
   #hero {
-    background-position: bottom center -50%;
+    background-position: 25% 50%;
+  }
+
+  .footer-container .logo h1 {
+    font-size: 5rem;
   }
 
   #hero h1 {
     font-size: 7rem;
   }
+
+  #hero .hero-title h2 {
+    font-size: 4rem;
+  }
+
   /* End hero */
 
   /* Program main */
@@ -626,35 +635,19 @@ section hr {
     justify-content: space-between;
   }
 
-  /* About section */
-  #About .About {
+  /* Organizer section */
+
+  #organizers {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  #About .col-left {
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
+  #organizers article {
+    max-width: 30%;
+    margin-left: 40px;
   }
-
-  #About .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 10px solid rgb(50, 125, 175);
-  }
-
-  #About .col-right {
-    text-align: left;
-    padding: 30px;
-  }
-
-  #About .col-right h1 {
-    text-align: left;
-  }
-
-  /* End About section */
 
   /* Contact section */
   #contact .contact {
@@ -662,8 +655,8 @@ section hr {
     padding: 100px 0;
     align-items: center;
     justify-content: center;
-    min-height: 20vh;
-    margin-bottom: 500px;
+    height: 15vh;
+    margin-bottom: 80px;
   }
 
   #contact .contact-items {
@@ -698,4 +691,46 @@ section hr {
   }
 
   /* End Contact section */
+
+  /* Partner section */
+  .partner-section {
+    height: 35vh;
+  }
+
+  .partners {
+    flex-wrap: nowrap;
+  }
+
+  .partners .partner {
+    margin-left: 65px;
+    width: 65%;
+  }
+
+  .partners .partner h4 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  /* Footer */
+
+  #footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding: 0 20px;
+  }
+
+  #footer h3 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    width: 75%;
+  }
+
+  #footer h4 {
+    display: none;
+  }
 }
