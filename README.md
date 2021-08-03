@@ -9,11 +9,22 @@ The website is about a site of travelling and coding meetings, a place where pas
 
 [Live Demo Link](https://hamzaoutdoors.github.io/HTML-CSS-JavaScript-capstone-project/)
 
-- Mobile version
+- Mobile version (Home page)
 
 ![mobile1](https://user-images.githubusercontent.com/80895497/128024374-0b2e20c6-2e39-4ac7-9dad-7fdcc0c292f5.PNG),![mobile5](https://user-images.githubusercontent.com/80895497/128024746-450f3b2c-afe4-4765-87b5-efd083fce021.PNG), ![mobile2](https://user-images.githubusercontent.com/80895497/128024525-d3c13714-3242-467b-9608-632f9f7844bb.PNG),![mobile3](https://user-images.githubusercontent.com/80895497/128024688-44fb112d-f439-4100-bfee-ebcf75cd9ef5.PNG)
 ![mobile4](https://user-images.githubusercontent.com/80895497/128024747-8e382652-952a-46cd-9af0-57fcf9eaef44.PNG)
 
+- Mobile version (About page)
+
+![mobile7](https://user-images.githubusercontent.com/80895497/128091722-791f0809-c50a-4c2d-8fa3-6606298f6455.PNG)
+![mobile6](https://user-images.githubusercontent.com/80895497/128091744-0a7820aa-8bd2-45c7-953a-edc76d82b383.PNG)
+
+- Desktop version 
+
+![MobileHome1](https://user-images.githubusercontent.com/80895497/128092540-e39c1276-148e-479e-a2c6-011f58840f6a.PNG)
+![MobileHome2](https://user-images.githubusercontent.com/80895497/128092556-6e8e9bc2-2ea4-4de3-82e3-9e3377704dfa.PNG)
+![MobileHome3](https://user-images.githubusercontent.com/80895497/128092579-0dfc9973-8120-4b26-9802-02713259eba8.PNG)
+![MobileHome4](https://user-images.githubusercontent.com/80895497/128092595-52a5ee58-d043-49e1-b73e-8265ee14be58.PNG)
 
 
 Additional description about the project and its features.
