@@ -1,0 +1,116 @@
+
+#hero h2 {
+  margin-left: 50px;
+}
+
+#hero h3 {
+  margin: 5px 50px;
+  color: #ec5242;
+  text-overflow: inherit;
+}
+
+.date-place h4 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+#ourlogo {
+  height: 60vh;
+  padding: 20px;
+}
+
+#ourlogo .container h4 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+#ourlogo .container img {
+  height: 25vh;
+  width: 60vw;
+  border: 3px solid #ec5242;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.last-activities {
+  background-color: #272a31;
+  color: white;
+  height: 80vh;
+  text-align: center;
+  font-weight: 900;
+
+}
+
+.last-activities-container {
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.last-item {
+  height: 200px;
+  position: relative;
+  border-radius: 12px;
+  color: white;
+  padding-top: 20px;
+}
+
+.last-item:hover {
+  border: 2px #d3d3d3 solid;
+}
+
+.last-item-1 {
+  background: url("../Images/last_item1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.last-item-2 {
+  background: url("../Images/last_item2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.last-item-1::after,
+.last-item-2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(236, 82, 66, 0.8);
+  border-radius: 12px;
+  opacity: 0.55;
+  z-index: -1;
+}
+
+.last-description h5 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.last-description p {
+  font-size: 1.2rem;
+}
+
+.last-competitions {
+  padding: 0 5%;
+}
+
+.last-container {
+  margin-top: 20px;
+}
+
+.link-item {
+  margin: 5px;
+  height: fit-content;
+  width: 80%;
+}

@@ -2,9 +2,15 @@
 
 # HTML/CSS & JavaScript capstone project
 
-> One paragraph statement about the project.
+> This project is the capstone project of the first module (the portal) in Microverse program.
+The website is about a site of travelling and coding meetings, a place where passionate people about travelling meet, learn, and enjoy. The website contains 2 pages, main page where I introduced the idea about the meeting, the about page where I presented the meeting and some previous activities, all the pages are responsive (breakpoint 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
-![screenshot](./app_screenshot.png)
+- Mobile version
+
+![mobile1](https://user-images.githubusercontent.com/80895497/128024374-0b2e20c6-2e39-4ac7-9dad-7fdcc0c292f5.PNG),![mobile5](https://user-images.githubusercontent.com/80895497/128024746-450f3b2c-afe4-4765-87b5-efd083fce021.PNG), ![mobile2](https://user-images.githubusercontent.com/80895497/128024525-d3c13714-3242-467b-9608-632f9f7844bb.PNG),![mobile3](https://user-images.githubusercontent.com/80895497/128024688-44fb112d-f439-4100-bfee-ebcf75cd9ef5.PNG)
+![mobile4](https://user-images.githubusercontent.com/80895497/128024747-8e382652-952a-46cd-9af0-57fcf9eaef44.PNG)
+
+
 
 Additional description about the project and its features.
 
@@ -19,38 +25,9 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+👤 **Hamza Ellaouzi**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -59,8 +36,15 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+* Forking the project
+* Cloning the project to your local machine
+* `cd` into the project directory
+* Run `git checkout -b your-branch-name`
+* Make your contributions
+* Push your branch up to your forked repository
+* Open a Pull Request with a detailed description to the development branch of the original project for a review
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Hamzaoutdoors/HTML-CSS-JavaScript-capstone-project/issues).
 
 ## Show your support
 
@@ -68,9 +52,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- the website is designed by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [microverse](https://www.microverse.org/)
 
 ## 📝 License
 
