@@ -13,6 +13,27 @@
   --secondary-color: #d3d3d3;
   --dark-color: #272a31;
   --white: #fff;
+  --primary-4: #fff5e1;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.program-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 25px 35px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 30px auto;
+}
+
+.program-btn:hover {
+  background: var(--primary-4);
+  color: var(--primary-color);
+  border: 1px solid var(--warning-color);
 }
 
 body {
@@ -37,6 +58,10 @@ a {
   cursor: pointer;
 }
 
+li {
+  list-style: none;
+}
+
 .d-flex {
   display: flex;
 }
@@ -58,10 +83,6 @@ a {
   font-weight: normal;
 }
 
-.color-white {
-  color: var(--white);
-}
-
 .color-primary {
   color: var(--primary-color);
 }
@@ -74,13 +95,13 @@ a {
 }
 
 section hr {
-  margin-top: 5px;
+  margin-top: 10px;
   width: 40px;
   border: 1.5px var(--primary-color) solid;
 }
 
 .logo h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--dark-color);
 }
@@ -91,10 +112,13 @@ section hr {
 
 /* Header Section  */
 
+.section-social {
+  display: none;
+}
+
 .nav-bar {
-  background: var(--white);
   flex-wrap: wrap;
-  padding: 5px 25px;
+  padding: 0 25px;
   height: 10vh;
   align-items: center;
   justify-content: space-between;
@@ -102,13 +126,20 @@ section hr {
   font-weight: 700;
   z-index: 3;
   margin: 0;
+  background-image: url('../Images/navBar.png');
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.nav-bar .logo {
+  display: none;
 }
 
 #header .nav-list ul {
-  left: 100%;
+  right: 100%;
   top: 0;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   z-index: 11;
   overflow-x: hidden;
   list-style: none;
@@ -116,27 +147,28 @@ section hr {
   background-color: var(--dark-color);
   width: 100vw;
   height: 100vh;
-  transition: 0.5s ease left;
-  padding: 50px 24px;
+  transition: 0.5s ease right;
+  padding: 50px 27px;
 }
 
 #header .nav-list ul li {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   border-bottom: 0.3px solid var(--white);
-  margin-top: 40px;
-  width: 94%;
-  padding: 8px;
+  margin-top: 70px;
+  width: 90%;
+  padding: 10px;
   transition: all 2s ease;
+  letter-spacing: 0.5rem;
 }
 
 #header .nav-list ul.active {
-  left: 0;
+  right: 0;
 }
 
 #header .hamburger a {
   color: var(--dark-color);
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 #header .nav-list ul li a {
@@ -186,37 +218,45 @@ section hr {
   height: 100%;
   width: 100%;
   background-color: var(--secondary-color);
-  opacity: 0.45;
+  opacity: 0.5;
   z-index: -1;
 }
 
 #hero .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 25px;
+  padding: 6%;
   justify-content: flex-start;
+}
+
+#hero h1 {
+  color: var(--primary-color);
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 #hero h2 {
   font-family: "cocogoose", sans-serif;
   display: block;
   width: fit-content;
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: relative;
   color: transparent;
   animation: text_reveal 1s ease forwards;
   animation-delay: 1s;
-}
-
-#hero h2:nth-child(1) {
-  animation-delay: 1s;
+  text-transform: uppercase;
 }
 
 #hero h2:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 #hero h2:nth-child(3) {
+  animation-delay: 2s;
+}
+
+#hero h2:nth-child(4) {
   animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 3s;
 }
@@ -233,24 +273,24 @@ section hr {
   animation-delay: 0.3s;
 }
 
-#hero h2:nth-child(1) span {
+#hero h2:nth-child(2) span {
   animation-delay: 0.5s;
 }
 
-#hero h2:nth-child(2) span {
+#hero h2:nth-child(3) span {
   animation-delay: 1.5s;
 }
 
-#hero h2:nth-child(3) span {
+#hero h2:nth-child(4) span {
   animation-delay: 2.5s;
 }
 
 #hero .content-home {
-  width: 430px;
-  margin: 100px 0 40px 0;
-  padding: 15px;
+  width: 400px;
+  margin: 100px 20px 40px 0;
+  padding: 20px;
   background-color: var(--secondary-color);
-  opacity: 0.9;
+  opacity: 0.75;
   border: 3px solid var(--white);
   font-size: 1.2rem;
 }
@@ -259,7 +299,7 @@ section hr {
   margin-bottom: 10px;
 }
 
-.date-place h3 {
+.date-place h4:nth-child(1) {
   font-size: 2.2rem;
   font-family: "cocogoose", sans-serif;
 }
@@ -268,10 +308,8 @@ section hr {
 
 /* Main program Section */
 
-/* Hero Section  */
-
 .main-program {
-  height: 100vh;
+  height: 112vh;
   background-image: url("../Images/15.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -297,35 +335,40 @@ section hr {
 
 .porgram-details {
   margin: 50px 20px 0 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .porgram-details article {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px 10px;
+  padding: 20px 20px;
   width: 95%;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   align-content: center;
-  text-align: center;
-  height: 10vh;
+  text-align: start;
+  height: 12vh;
 }
 
 .porgram-details article i {
-  margin: 10px;
-  font-size: 2.5rem;
+  margin: 10px 0;
+  font-size: 3rem;
+  width: 10%;
 }
 
-.porgram-details h4 {
+.porgram-details h6 {
   align-self: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--primary-color);
-  margin: 0 15px;
+  margin: 0 18px;
+  width: 20%;
 }
 
 .porgram-details article p {
-  align-self: center;
   font-size: 1.2rem;
-  margin-left: 4px;
+  margin-left: 6px;
+  width: 70%;
+  align-self: center;
 }
 
 .all-program {
@@ -337,6 +380,7 @@ section hr {
   color: var(--white);
   font-size: 1rem;
   letter-spacing: 0.1rem;
+  display: none;
 }
 
 /* End Main Program Section */
@@ -411,7 +455,7 @@ section hr {
 
 #contact .contact-item {
   width: 90%;
-  padding: 30px;
+  padding: 30px 7px;
   text-align: center;
   border-radius: 10px;
   margin: 30px;
@@ -449,7 +493,7 @@ section hr {
 
 /*  Partner section */
 .partner-section {
-  background-color: #272a31;
+  background-color: #272a31ee;
   color: var(--white);
   height: 55vh;
 }
@@ -460,6 +504,7 @@ section hr {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .partners .partner {
@@ -481,34 +526,20 @@ section hr {
 /*  Footer section */
 
 #footer {
-  background-color: var(--secondary-color);
-  height: 25vh;
-  padding: 20px;
-}
-
-#footer .footer {
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-
-.footer-container .logo {
-  max-width: 50%;
+  height: 22vh;
+  padding: 0 20px 40px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #footer h3 {
   color: var(--dark-color);
   font-weight: 500;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-  width: 70%;
+  font-size: 1.3rem;
+  width: 60%;
   align-self: center;
-  text-align: center;
-}
-
-#footer h4 {
-  color: var(--dark-color);
-  font-size: 1.2rem;
-  margin-top: 50px;
+  text-align: start;
 }
 
 /*  End Footer section */
@@ -543,12 +574,55 @@ section hr {
 @media only screen and (min-width: 768px) {
   /* Header */
 
-  .nav-bar,
   .black-section,
   .projects,
   .about-section,
   .contact-section {
     padding: 0 120px;
+  }
+
+  .section-social {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 100vw;
+    height: 5vh;
+    background-color: var(--dark-color);
+    z-index: 3;
+    text-align: center;
+  }
+
+  .section-social ul {
+    align-items: center;
+    padding-right: 120px;
+  }
+
+  .section-social a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+
+  .section-social a:hover {
+    color: var(--primary-color);
+  }
+
+  .nav-bar {
+    background-image: none;
+    margin: 0 60px;
+  }
+
+  .nav-bar .logo {
+    display: flex;
+  }
+
+  #hero .hero {
+    margin: 70px 60px 0 60px;
+    padding: 2% 4%;
+  }
+
+  #hero .content-home {
+    margin-top: 40px;
   }
 
   #header .nav-list ul {
@@ -571,7 +645,7 @@ section hr {
     font-size: 1rem;
     font-weight: lighter;
     justify-self: flex-end;
-    margin-left: 30px;
+    margin-left: 10px;
     border-bottom: none;
     transition: all 2s ease;
     margin-top: 0;
@@ -589,10 +663,6 @@ section hr {
 
   #header .nav-list ul li:hover a {
     color: var(--primary-color);
-  }
-
-  .logo {
-    order: 0;
   }
 
   #header .hamburger {
@@ -618,7 +688,7 @@ section hr {
   }
 
   #hero h1 {
-    font-size: 7rem;
+    font-size: 3rem;
   }
 
   #hero .hero-title h2 {
@@ -631,7 +701,7 @@ section hr {
 
   .main-program {
     height: max-content;
-    padding-bottom: 30px;
+    padding: 0 10% 30px 10%;
   }
 
   .porgram-details {
@@ -640,10 +710,38 @@ section hr {
   }
 
   .porgram-details article {
-    width: 15%;
-    height: 25vh;
+    width: 18vh;
+    height: 22vh;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 3px;
+    padding: 5px;
+  }
+
+  .porgram-details article i {
+    width: 100%;
+    text-align: center;
+  }
+
+  .porgram-details article h6 {
+    font-size: 1.5rem;
+    margin: 5px 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .porgram-details article p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .all-program {
+    display: inline-block;
+  }
+
+  .program-btn {
+    display: none;
   }
 
   /* Organizer section */
@@ -681,9 +779,9 @@ section hr {
   }
 
   #contact .contact-item {
-    margin: 20px;
+    margin: 10px;
     flex-direction: row;
-    flex-basis: 33%;
+    flex-basis: 30%;
   }
 
   #contact .contact-item .icon {
@@ -705,7 +803,7 @@ section hr {
 
   /* Partner section */
   .partner-section {
-    height: 35vh;
+    height: 30vh;
   }
 
   .partners {
@@ -713,7 +811,8 @@ section hr {
   }
 
   .partners .partner {
-    margin-left: 65px;
+    margin-left: 45px;
+    margin-top: 10px;
     width: 65%;
   }
 
@@ -725,7 +824,7 @@ section hr {
   /* Footer */
 
   #footer {
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -736,12 +835,8 @@ section hr {
   }
 
   #footer h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 0.2rem;
-    width: 75%;
-  }
-
-  #footer h4 {
-    display: none;
+    width: 70%;
   }
 }
