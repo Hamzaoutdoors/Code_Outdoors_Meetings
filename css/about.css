@@ -1,0 +1,254 @@
+/* About page styling */
+
+#hero h2:nth-child(1) {
+  animation-delay: 1s;
+}
+
+#hero h2:nth-child(2) {
+  animation-delay: 2s;
+}
+
+#hero h2:nth-child(3) {
+  animation: text_reveal_name 0.5s ease forwards;
+  animation-delay: 3s;
+}
+
+#hero h2 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  opacity: 0.95;
+  background: linear-gradient(45deg, rgba(2, 0, 36, 1) 0%, rgba(236, 82, 66, 1) 42%, rgba(211, 211, 211, 1) 100%);
+  animation: text_reveal_box 1s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+#hero h2:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+
+#hero h2:nth-child(2) span {
+  animation-delay: 1.5s;
+}
+
+#hero h2:nth-child(3) span {
+  animation-delay: 2.5s;
+}
+
+#hero h3 {
+  margin: 5px 0;
+  color: #ec5242;
+  text-overflow: inherit;
+}
+
+#hero .date-place h4 {
+  font-size: 1.5rem;
+}
+
+.date-place a {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+#ourlogo {
+  height: 63vh;
+  padding: 20px;
+}
+
+#ourlogo .container {
+  justify-content: center;
+  align-items: center;
+}
+
+#ourlogo .container h4 {
+  margin: 10px 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+#ourlogo .container img {
+  height: 25vh;
+  width: 70vw;
+  border: 1px solid #d3d3d3;
+  padding: 5px 40px;
+  margin-top: 5px;
+}
+
+.last-activities {
+  color: black;
+  height: 88vh;
+  text-align: center;
+  font-weight: 900;
+  border-top: 0.5px solid #d3d3d3;
+}
+
+.last-description {
+  justify-content: center;
+  align-items: center;
+}
+
+.last-description p {
+  font-size: 1.2rem;
+}
+
+.last-activities .section-title p {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.last-activities-container {
+  margin: 70px 0;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.last-item {
+  height: 200px;
+  position: relative;
+  color: white;
+  padding-top: 25px;
+}
+
+.last-item:hover {
+  border: 2px #d3d3d3 solid;
+}
+
+.last-item-1 {
+  background: url("../Images/last_item1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.last-item-2 {
+  background: url("../Images/last_item2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.last-item-1::after,
+.last-item-2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(236, 82, 66, 0.8);
+  border-radius: 2px;
+  opacity: 0.55;
+  z-index: -1;
+}
+
+.last-description h5 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.last-competitions {
+  padding: 0 5%;
+}
+
+.last-container {
+  margin-top: 20px;
+}
+
+.link-item {
+  margin: 5px;
+  width: 80%;
+}
+
+#footer {
+  background-color: white;
+}
+
+#footer .logo h1 {
+  color: #272a31;
+}
+
+#footer h3 {
+  color: #272a31;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 768px) {
+  #hero .hero {
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+  }
+
+  #footer h3 {
+    color: white;
+  }
+
+  #hero .hero h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+
+  #hero .content-home {
+    width: 500px;
+    padding: 20px 60px;
+    font-size: 1.5rem;
+  }
+
+  #hero .date-place {
+    width: 500px;
+    text-align: center;
+  }
+
+  #ourlogo {
+    height: 55vh;
+  }
+
+  #ourlogo .container h4 {
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  #ourlogo .container img {
+    width: 35vw;
+    margin: 20px 0 20px 0;
+  }
+
+  .last-activities {
+    height: 55vh;
+  }
+
+  .last-activities-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .last-activities-container .link-item {
+    width: 30%;
+  }
+
+  .last-item {
+    margin-left: 15px;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  #footer {
+    background-color: #272a31;
+  }
+
+  #footer .logo h1 {
+    color: white;
+  }
+}
