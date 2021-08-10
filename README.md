@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML/CSS & JavaScript capstone project
+# Code & Outdoors website (capstone project)
 
 > This project is the capstone project of the first module (the portal) in Microverse program.
 The website is about a site of travelling and coding meetings, a place where passionate people about travelling meet, learn, and enjoy. The website contains 2 pages, main page where I introduced the idea about the meeting, the about page where I presented the meeting and some previous activities, all the pages are responsive (breakpoint 768px) and the design is inspired from [Cindy Shin in Behance](https://www.behance.net/adagio07).
