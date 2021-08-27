@@ -23,7 +23,7 @@ The website is about a site of travelling and coding meetings, a place where pas
 
 ## Live Demo
 
-[Live Demo Link](https://hamzaoutdoors.github.io/HTML-CSS-JavaScript-capstone-project/)
+[Live Demo Link](https://hamzaoutdoors.github.io/Code_Outdoors_Meetings/)
 
 ## Video presentation
 
