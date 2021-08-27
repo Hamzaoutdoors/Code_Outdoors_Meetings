@@ -1,4 +1,20 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/to-do-list/blob/development/LICENSE">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Code_Outdoors_Meetings">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Hamzaoutdoors/Code_Outdoors_Meetings/main?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Code_Outdoors_Meetings">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Hamzaoutdoors/Code_Outdoors_Meetings?color=orange&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hamzaoutdoors?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
 
 # Code & Outdoors website (capstone project)
 
