@@ -16,6 +16,11 @@
   </a>
 </p>
 
+ </br>
+ <div align="center">
+  <em align="center" style>" You can do anything as long as you have the passion, the drive, the focus, and the support. "</em><strong> - Sabrina Bryan</strong>
+  </div>
+  
 # Code & Outdoors website (capstone project)
 
 > This project is the capstone project of the first module (the portal) in Microverse program.
