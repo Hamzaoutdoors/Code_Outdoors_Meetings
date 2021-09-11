@@ -31,7 +31,9 @@ The website is about a site of travelling and coding meetings, a place where pas
 [Live Demo Link](https://hamzaoutdoors.github.io/Code_Outdoors_Meetings/)
 
  <p align="center">
+   <kbd>
     <img alt="logo" src="https://user-images.githubusercontent.com/80895497/132954145-e835aec3-c3d9-4f3f-89c9-70f48f9d794f.gif" width="250" height="250">
+   </kbd>
 </p>
 
 ## Video presentation
